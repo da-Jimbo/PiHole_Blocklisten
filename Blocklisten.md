@@ -1,4 +1,4 @@
-| Rang | Liste |
+| Rang | Liste | 
 |-----:|-----------|
 |     1|https://raw.githubusercontent.com/deathbybandaid/piholeparser/master/Subscribable-Lists/CombinedBlacklists/CombinedBlackLists.txt |
 |     2|https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/notserious |
