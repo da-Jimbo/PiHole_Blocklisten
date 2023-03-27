@@ -7,22 +7,22 @@
 |     2|https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/notserious |115307|
 |     3|https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/Phishing-Angriffe |481323|
 |     4|https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/spam.mails |543853|
-|     5|https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/Win10Telemetry |45|
+|     5|||
 |     6|https://raw.githubusercontent.com/crazy-max/WindowsSpyBlocker/master/data/hosts/spy.txt |347|
 |     7|https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/crypto |98112|
 |     8|https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/malware |87187|
 |     9|https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/Streaming |4185|
 |     10|https://raw.githubusercontent.com/jmdugan/blocklists/master/corporations/facebook/all |2097|
 |     11|https://www.sunshine.it/blacklist.txt |82108|
-|     12|https://www.technoy.de/lists/Session-Replay.txt |12|
+|     12|||
 |     13|https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/proxies |202266|
-|     14|https://raw.githubusercontent.com/crpietschmann/pi-hole-blocklist/main/social-media/blocklist-social-facebook.txt |27|
+|     14|||
 |     15|https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/samsung |84|
-|     16|https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/MS-Office-Telemetry |3|
+|     16|||
 |     17|https://raw.githubusercontent.com/r-a-y/mobile-hosts/master/AdguardMobileSpyware.txt |663|
 |     18|https://raw.githubusercontent.com/r-a-y/mobile-hosts/master/AdguardMobileAds.txt |907|
-|     19|https://raw.githubusercontent.com/FadeMind/hosts.extras/master/UncheckyAds/hosts |9|
-|     20|https://www.benjaminbritten.de/pihole/blocklist.txt |20|
+|     19|||
+|     20|||
 |     21|https://phishing.army/download/phishing_army_blocklist.txt |134620|
 |     22|https://phishing.army/download/phishing_army_blocklist_extended.txt |139567|
 |     23|https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts |194506|
@@ -40,7 +40,7 @@
 |     35|https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/DomainSquatting1 |1Mio.|
 |     36|https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/DomainSquatting2 |1Mio.|
 |     37|https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/DomainSquatting3 |58391|
-|     38|https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/DomainSquatting4 |0|
+|     38|||
 |     39|https://raw.githubusercontent.com/namePlayer/dhl-scamlist/main/dns-blocklists/pihole-blacklist |127|
 |     40|https://dbl.oisd.nl/ |844770|
 |     41|https://raw.githubusercontent.com/elliotwutingfeng/Inversion-DNSBL-Blocklists/main/Google_hostnames.txt |598368|
