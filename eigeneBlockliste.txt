@@ -551,8 +551,8 @@ hubblecontent.osi.office.net
 ^adim(age|g)s?[0-9]*[_.-]/$
 ^adtrack(er|ing)?[0-9]*[_.-]/$
 ^analytics?[_.-]/$
-vbanners?[_.-]/$
-vbeacons?[0-9]*[_.-]/$
+^vbanners?[_.-]/$
+^vbeacons?[0-9]*[_.-]/$
 ^(^|\.)(cn|ru)$
 
 ^(.*\.)*(sonobi|contentabc|exponential|bebi|3lift|leanplum|hotjar|m-pathy|parsely|exelator|touchcommerce|magnetic|exosrv|go2affise|mgid|clksite|tynt|inclk|bidswitch|optimizely|tiqcdn|maxymiser|9xiazaiqi|siquality|snwxn|8wix|tudown|psdzy|bankofamericaslpemr|cloudns|pfa.levexis)\.([a-z]{2,3}\.)*[a-z]{2,6}$
