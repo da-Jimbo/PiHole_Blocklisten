@@ -16,6 +16,8 @@ ads-api.twitter.com
 ads.youtube.com
 ads.tiktok.com
 
+test-api.us.xiaoyi.com
+
 (\.|^)https://freshmarketer\.com/
 (\.|^)https://stats\.wp\.com
 (\.|^)https://adservetx\.media\.net
@@ -32,6 +34,7 @@ ads.tiktok.com
 (\.|^)https://affiliationjs\.s3\.amazonaws\.com
 (\.|^)https://advertising-api-eu\.amazon\.com
 (.+[_.-])?telemetry[_.-]/
+(\.|^)amazonclix\.com$
 
 
 (.+[_.-])?adse?rv(er?|ice)?s?[0-9]*[_.-]/
