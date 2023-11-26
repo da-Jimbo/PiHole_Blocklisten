@@ -1,5 +1,10 @@
 # last Update 26.11.2023 01:03
 
+deviceportal.nettvservices.com	
+epg.corio.com	
+legacyportal.nettvservices.com	
+nettv.corio.com
+
 stats.g.doubleclick.net
 ad.doubleclick.net
 static.doubleclick.net
