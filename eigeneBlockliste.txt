@@ -78,7 +78,6 @@ beacons?[0-9]*[_.-]/
 (.*\.)*(inmobicdn|jizzads|leadbolt|nexage|milleniamedia|mobfox|mobilityware|newrelic|propellerads|revd(depo|sci)|segment|serving-sys|sharethis|startapp|steelhousemedia|tapjoy|viglink|webterren|adtaily|zedo|liadm|exposebox|jazdoxthxiv|jwmwtcmexc|thetradedesk||rocketfuel|ignitionone|komoot|squarelovin|cookiebot)\.([a-z]{2,3}\.)*[a-z]{2,6}
 
 track(ers?|ing)?[0-9]*[_.-]/
-(\.|^)amazonclix\.com
 count(ers?)?[0-9]*[_.-]/
 mads\./
 pixels?[-.]/
