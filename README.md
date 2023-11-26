@@ -49,8 +49,3 @@
 |     43|http://da-jimbo.oslo.webspace24.de/Projekte/PiHole-Blockliste/eigeneBlockliste.txt |473|
 
 </details>
-
-<details>
-<summary>Stand:</summary>
-  27.03.2023 01:45Uhr
-</details>
