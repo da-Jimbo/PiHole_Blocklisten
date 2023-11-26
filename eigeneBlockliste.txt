@@ -20,20 +20,20 @@ ads.tiktok.com
 #YI-Kameras
 test-api.us.xiaoyi.com
 
-https://freshmarketer.com/
-https://stats.wp.com
-https://adservetx.media.net
-https://logbak.hicloud.com
-https://samsungads.com
-https://samsung-com.net
-https://analytics-api.samsunghealthcn.com
+freshmarketer.com/
+stats.wp.com
+adservetx.media.net
+logbak.hicloud.com
+samsungads.com
+samsung-com.net
+analytics-api.samsunghealthcn.com
 doubleclick.net
 hicloud.com
 samsunghealthcn.com
 advertising.twitter.com
 analyticsengine.s3.amazonaws.com
 affiliationjs.s3.amazonaws.com
-https://advertising-api-eu.amazon.com
+advertising-api-eu.amazon.com
 amazonclix.com
 
 
