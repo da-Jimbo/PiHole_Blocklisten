@@ -1,10 +1,15 @@
 # last Update 26.11.2023 01:03
 
+
 #Philips Smart TV
+
 deviceportal.nettvservices.com
 legacyportal.nettvservices.com
 epg.corio.com
 nettv.corio.com
+
+
+#Sonstiges
 
 stats.g.doubleclick.net
 ad.doubleclick.net
@@ -17,10 +22,7 @@ ads.pinterest.com
 ads-api.twitter.com
 ads.youtube.com
 ads.tiktok.com
-
-#YI-Kameras
 test-api.us.xiaoyi.com
-
 freshmarketer.com
 stats.wp.com
 adservetx.media.net
@@ -521,6 +523,7 @@ ztd.dds.microsoft.com
 
 
 #MSOffice Telemetrie
+
 self.events.data.microsoft.com
 nexus.officeapps.live.com
 hubblecontent.osi.office.net
