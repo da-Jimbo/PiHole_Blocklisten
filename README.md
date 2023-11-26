@@ -46,6 +46,6 @@
 |     40|https://dbl.oisd.nl/ |
 |     41|https://raw.githubusercontent.com/elliotwutingfeng/Inversion-DNSBL-Blocklists/main/Google_hostnames.txt |
 |     42|https://raw.githubusercontent.com/autinerd/anti-axelspringer-hosts/master/axelspringer-hosts |
-|     43|http://da-jimbo.oslo.webspace24.de/Projekte/PiHole-Blockliste/eigeneBlockliste.txt |
+|     43|https://raw.githubusercontent.com/da-Jimbo/PiHole_Blocklisten/main/eigeneBlockliste.txt |
 
 </details>
