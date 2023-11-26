@@ -530,49 +530,48 @@ hubblecontent.osi.office.net
 
 
 
-(.+[_.-])?adse?rv(er?|ice)?s?[0-9]*[_.-]/
-(.+[_.-])?telemetry[_.-]/
-ad([sxv]?[0-9]*|system)[_.-]([^.[:space:]]+\.){1,}|[_.-]ad([sxv]?[0-9]*|system)[_.-]/
-adim(age|g)s?[0-9]*[_.-]/
-adtrack(er|ing)?[0-9]*[_.-]/
-advert(s|is(ing|ements?))?[0-9]*[_.-]/
-aff(iliat(es?|ion))?[_.-]/
-analytics?[_.-]/
-banners?[_.-]/
-beacons?[0-9]*[_.-]/
-count(ers?)?[0-9]*[_.-]/
-mads\./
-pixels?[-.]/
-stat(s|istics)?[0-9]*[_.-]/
+^(.+[_.-])?adse?rv(er?|ice)?s?[0-9]*[_.-]/$
+^(.+[_.-])?telemetry[_.-]/$
+^ad([sxv]?[0-9]*|system)[_.-]([^.[:space:]]+\.){1,}|[_.-]ad([sxv]?[0-9]*|system)[_.-]/$
+^adim(age|g)s?[0-9]*[_.-]/$
+^adtrack(er|ing)?[0-9]*[_.-]/$
+^advert(s|is(ing|ements?))?[0-9]*[_.-]/$
+^aff(iliat(es?|ion))?[_.-]/$
+^analytics?[_.-]/$
+^banners?[_.-]/$
+^beacons?[0-9]*[_.-]/$
+^count(ers?)?[0-9]*[_.-]/$
+^mads\./$
+^pixels?[-.]/$
+^stat(s|istics)?[0-9]*[_.-]/$
 
 
-advert(s|is(ing|ements?))?[0-9]*[_.-]/
-(.+[_.-])?adse?rv(er?|ice)?s?[0-9]*[_.-]/
-(.+[_.-])?ad[sxv]?[0-9]*[_.-]/
-adim(age|g)s?[0-9]*[_.-]/
-adtrack(er|ing)?[0-9]*[_.-]/
-analytics?[_.-]/
-banners?[_.-]/
-beacons?[0-9]*[_.-]/
-(^|\.)(cn|ru)
+^advert(s|is(ing|ements?))?[0-9]*[_.-]/$
+^(.+[_.-])?adse?rv(er?|ice)?s?[0-9]*[_.-]/$
+^(.+[_.-])?ad[sxv]?[0-9]*[_.-]/$
+^adim(age|g)s?[0-9]*[_.-]/$
+^adtrack(er|ing)?[0-9]*[_.-]/$
+^analytics?[_.-]/$
+vbanners?[_.-]/$
+vbeacons?[0-9]*[_.-]/$
+^(^|\.)(cn|ru)$
 
-(.*\.)*(sonobi|contentabc|exponential|bebi|3lift|leanplum|hotjar|m-pathy|parsely|exelator|touchcommerce|magnetic|exosrv|go2affise|mgid|clksite|tynt|inclk|bidswitch|optimizely|tiqcdn|maxymiser|9xiazaiqi|siquality|snwxn|8wix|tudown|psdzy|bankofamericaslpemr|cloudns|pfa.levexis)\.([a-z]{2,3}\.)*[a-z]{2,6}
+^(.*\.)*(sonobi|contentabc|exponential|bebi|3lift|leanplum|hotjar|m-pathy|parsely|exelator|touchcommerce|magnetic|exosrv|go2affise|mgid|clksite|tynt|inclk|bidswitch|optimizely|tiqcdn|maxymiser|9xiazaiqi|siquality|snwxn|8wix|tudown|psdzy|bankofamericaslpemr|cloudns|pfa.levexis)\.([a-z]{2,3}\.)*[a-z]{2,6}$
 
-(.*\.)*(dotomi|urbanairship|criteo|yimg|footprint|sitescout|turn|w55c|openx|voluumtrk|videoplaza|inmobi|reporo|cnzz|skim(resources|links)|tribalfusion|getsocial|hoverr|mediaplex|auditude|tacoda|puserving|d(e|o)mdex)\.([a-z]{2,3}\.)*[a-z]{2,6}
+^(.*\.)*(dotomi|urbanairship|criteo|yimg|footprint|sitescout|turn|w55c|openx|voluumtrk|videoplaza|inmobi|reporo|cnzz|skim(resources|links)|tribalfusion|getsocial|hoverr|mediaplex|auditude|tacoda|puserving|d(e|o)mdex^^)\.([a-z]{2,3}\.)*[a-z]{2,6}$
 
-(.*\.)*(buffpanel|redshell|treasuredata|unity(ads|3d)|evidon|flashtalking|mathtag|mediamath|scorecardresearch|yieldmanager|sharezips|liveadvert|mktoresp|online-metrix|mobileapptracking|webengage|mpstat|trafficjunky|alphonso|stickyadstv|marketo|tubemogul|kameleoon|24s|0x1f4b0)\.([a-z]{2,3}\.)*[a-z]{2,6}
+^(.*\.)*(buffpanel|redshell|treasuredata|unity(ads|3d)|evidon|flashtalking|mathtag|mediamath|scorecardresearch|yieldmanager|sharezips|liveadvert|mktoresp|online-metrix|mobileapptracking|webengage|mpstat|trafficjunky|alphonso|stickyadstv|marketo|tubemogul|kameleoon|24s|0x1f4b0)\.([a-z]{2,3}\.)*[a-z]{2,6}$
 
-(.*\.)*(petametrics|localytics|onthe|newrelic|casalemedia|tidaltv|newsinc|nr-data|tapad|crazyegg|vserv|solocpm|ojrq|getclicky|narrative|7eer|evyy|impactradius|redtrack|content-ad|sharethrough|getui|pro-market|albacross|evergage|araleg|districtm|singular|dynamicyield|smrtb|everesttech|snapchatprime)\.([a-z]{2,3}\.)*[a-z]{2,6}
+^(.*\.)*(petametrics|localytics|onthe|newrelic|casalemedia|tidaltv|newsinc|nr-data|tapad|crazyegg|vserv|solocpm|ojrq|getclicky|narrative|7eer|evyy|impactradius|redtrack|content-ad|sharethrough|getui|pro-market|albacross|evergage|araleg|districtm|singular|dynamicyield|smrtb|everesttech|snapchatprime)\.([a-z]{2,3}\.)*[a-z]{2,6}$
 
-(.*\.)*(perimeterx|coremetrics|veinteractive|netcoresmartech|vungle|batmobi|marinsm|igexin|keywordblocks|facebook-info|freecontent|hostingcloud|360safe|axiatraders|beginads|ero-advertising|inteleksys|joodfbnm*[0-9]*|nbrwer*[0-9]*|usergrid|trackersimulator|tapjoy|supercell|bluekai|chartboost|atues|duilawyeryork|bannerflow|bmmetrix|flagcounter)\.([a-z]{2,3}\.)*[a-z]{2,6}
+^(.*\.)*(perimeterx|coremetrics|veinteractive|netcoresmartech|vungle|batmobi|marinsm|igexin|keywordblocks|facebook-info|freecontent|hostingcloud|360safe|axiatraders|beginads|ero-advertising|inteleksys|joodfbnm*[0-9]*|nbrwer*[0-9]*|usergrid|trackersimulator|tapjoy|supercell|bluekai|chartboost|atues|duilawyeryork|bannerflow|bmmetrix|flagcounter)\.([a-z]{2,3}\.)*[a-z]{2,6}$
 
-(.*\.)*(segment|braze|amplitude|emetriq|buysellads|ioam|ensighten|eulerian|dnsdelegation|clicktale|samsungads|userlike|summerhamster|sourcepoint|adobetm|pcapredict|syscation|infosupports|arrowservice|bigdepression|earthsolution|firefoxupdata|infobusinessus|yahoodaily|newsonet|worthhummer|purpledaily|blackcake|msnhome)\.([a-z]{2,3}\.)*[a-z]{2,6}
+^(.*\.)*(segment|braze|amplitude|emetriq|buysellads|ioam|ensighten|eulerian|dnsdelegation|clicktale|samsungads|userlike|summerhamster|sourcepoint|adobetm|pcapredict|syscation|infosupports|arrowservice|bigdepression|earthsolution|firefoxupdata|infobusinessus|yahoodaily|newsonet|worthhummer|purpledaily|blackcake|msnhome)\.([a-z]{2,3}\.)*[a-z]{2,6}$
 
-(.*\.)*(inmobicdn|jizzads|leadbolt|nexage|milleniamedia|mobfox|mobilityware|newrelic|propellerads|revd(depo|sci)|segment|serving-sys|sharethis|startapp|steelhousemedia|tapjoy|viglink|webterren|adtaily|zedo|liadm|exposebox|jazdoxthxiv|jwmwtcmexc|thetradedesk||rocketfuel|ignitionone|komoot|squarelovin|cookiebot)\.([a-z]{2,3}\.)*[a-z]{2,6}
-
-track(ers?|ing)?[0-9]*[_.-]/
-count(ers?)?[0-9]*[_.-]/
-mads\./
-pixels?[-.]/
-ad([sxv]?[0-9]*|system)[_.-]([^.[:space:]]+\.){1,}|[_.-]ad([sxv]?[0-9]*|system)[_.-]/
-(\.|^)usercentrics\.eu
+^(.*\.)*(inmobicdn|jizzads|leadbolt|nexage|milleniamedia|mobfox|mobilityware|newrelic|propellerads|revd(depo|sci)|segment|serving-sys|sharethis|startapp|steelhousemedia|tapjoy|viglink|webterren|adtaily|zedo|liadm|exposebox|jazdoxthxiv|jwmwtcmexc|thetradedesk||rocketfuel|ignitionone|komoot|squarelovin|cookiebot)\.([a-z]{2,3}\.)*[a-z]{2,6}$
+^track(ers?|ing)?[0-9]*[_.-]/$
+^count(ers?)?[0-9]*[_.-]/$
+^mads\./$
+^pixels?[-.]/$
+^ad([sxv]?[0-9]*|system)[_.-]([^.[:space:]]+\.){1,}|[_.-]ad([sxv]?[0-9]*|system)[_.-]/$
+^(\.|^)usercentrics\.eu$
