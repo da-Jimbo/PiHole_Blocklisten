@@ -528,7 +528,14 @@ nexus.officeapps.live.com
 hubblecontent.osi.office.net
 
 
+# REGEX
 
+^track(ers?|ing)?[0-9]*[_.-]/$
+^count(ers?)?[0-9]*[_.-]/$
+^mads\./$
+^pixels?[-.]/$
+^ad([sxv]?[0-9]*|system)[_.-]([^.[:space:]]+\.){1,}|[_.-]ad([sxv]?[0-9]*|system)[_.-]/$
+^(\.|^)usercentrics\.eu$
 ^(.+[_.-])?adse?rv(er?|ice)?s?[0-9]*[_.-]/$
 ^(.+[_.-])?telemetry[_.-]/$
 ^ad([sxv]?[0-9]*|system)[_.-]([^.[:space:]]+\.){1,}|[_.-]ad([sxv]?[0-9]*|system)[_.-]/$
@@ -543,8 +550,6 @@ hubblecontent.osi.office.net
 ^mads\./$
 ^pixels?[-.]/$
 ^stat(s|istics)?[0-9]*[_.-]/$
-
-
 ^advert(s|is(ing|ements?))?[0-9]*[_.-]/$
 ^(.+[_.-])?adse?rv(er?|ice)?s?[0-9]*[_.-]/$
 ^(.+[_.-])?ad[sxv]?[0-9]*[_.-]/$
@@ -568,9 +573,3 @@ hubblecontent.osi.office.net
 ^(.*\.)*(segment|braze|amplitude|emetriq|buysellads|ioam|ensighten|eulerian|dnsdelegation|clicktale|samsungads|userlike|summerhamster|sourcepoint|adobetm|pcapredict|syscation|infosupports|arrowservice|bigdepression|earthsolution|firefoxupdata|infobusinessus|yahoodaily|newsonet|worthhummer|purpledaily|blackcake|msnhome)\.([a-z]{2,3}\.)*[a-z]{2,6}$
 
 ^(.*\.)*(inmobicdn|jizzads|leadbolt|nexage|milleniamedia|mobfox|mobilityware|newrelic|propellerads|revd(depo|sci)|segment|serving-sys|sharethis|startapp|steelhousemedia|tapjoy|viglink|webterren|adtaily|zedo|liadm|exposebox|jazdoxthxiv|jwmwtcmexc|thetradedesk||rocketfuel|ignitionone|komoot|squarelovin|cookiebot)\.([a-z]{2,3}\.)*[a-z]{2,6}$
-^track(ers?|ing)?[0-9]*[_.-]/$
-^count(ers?)?[0-9]*[_.-]/$
-^mads\./$
-^pixels?[-.]/$
-^ad([sxv]?[0-9]*|system)[_.-]([^.[:space:]]+\.){1,}|[_.-]ad([sxv]?[0-9]*|system)[_.-]/$
-^(\.|^)usercentrics\.eu$
