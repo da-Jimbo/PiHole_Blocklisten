@@ -34,8 +34,7 @@ advertising.twitter.com
 analyticsengine.s3.amazonaws.com
 affiliationjs.s3.amazonaws.com
 https://advertising-api-eu.amazon.com
-(.+[_.-])?telemetry[_.-]/
-(\.|^)amazonclix\.com$
+amazonclix.com
 
 
 (.+[_.-])?adse?rv(er?|ice)?s?[0-9]*[_.-]/
